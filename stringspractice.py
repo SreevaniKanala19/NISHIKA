@@ -1,4 +1,5 @@
 a = 'madam'
-a.count('a')
-a.capitalize()
-
+b = ""
+for i in a:
+    b = i + b
+print(b)

@@ -5,3 +5,5 @@ for i in a:
 if a == b:
     print('palindrome')
 
+print('the end')
+

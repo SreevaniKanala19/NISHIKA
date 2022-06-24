@@ -1,7 +1,6 @@
 a = ['nishika']
 a=[i*5 for i in a]
 print(a)
-
 a = ['noor','vani','roja',2]
 #print(a.pop(2))
 print(a.count('noor'))
@@ -53,4 +52,5 @@ print(a.__next__())
 print(a.__next__())
 print(a.__next__()) 
 print(list(feb(11)))
+
 

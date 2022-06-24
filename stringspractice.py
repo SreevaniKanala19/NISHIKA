@@ -1,3 +1,4 @@
+
 def feb(a):
     for i in range(a):
         yield i
@@ -37,12 +38,8 @@ print(len(a))
 print(a[:])
 print(a[6:5:-1])
 
-
-
-
-
-
-
-
-
-
+a = 'madam'
+b = ""
+for i in a:
+    b = i + b
+print(b)

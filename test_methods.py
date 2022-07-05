@@ -32,3 +32,13 @@ def test_sqrt1():
 @pytest.mark.regression
 def test_new_mehtod():
     assert 1 == 2, 'numbers are not equal'
+    assert 1 == 2, 'numbers are not equal'
+def test_add():
+    assert 3+3 == 9
+def test_sub():
+    assert 5-3 == 2
+def test_mul():
+    assert 5*3 == 15
+def test_div():
+    assert 20/4 == 6
+

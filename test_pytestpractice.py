@@ -39,7 +39,6 @@ def test_regularize(test_opening_page):
     time.sleep(2)
     elm = driver.find_element(By.XPATH,'//*[@class="btn btn-primary rounded-0" and text()="Regularize"]')
     driver.execute_script('arguments[0].click();',elm)
-
     time.sleep(20)
 
 
